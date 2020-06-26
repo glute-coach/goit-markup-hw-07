@@ -18,16 +18,13 @@
 }
 
 .customer-item {
-  /* transition: 250ms var(--timing-function); */
+  @include centeredFlex();
 
   width: 170px;
   height: 90px;
   color: inherit;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   &:hover .icon {
     fill: $accent-color;
