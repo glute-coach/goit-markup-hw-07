@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import './utils/variables';
-@import './base/normalize';
-@import './utils/utils';
+@import './vendors/normalize';
+@import './base/utils';
 @import './utils/mixins';
 @import './components/page-hedder';
 @import './components/hero';
